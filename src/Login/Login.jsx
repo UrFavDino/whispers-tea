@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; // Import Link for navigation
 import Form from 'react-bootstrap/Form';
 import Dropdown from 'react-bootstrap/Dropdown';
-import '../Login/Login.css'; // Import CSS for styling
+import '../Login/Login.css'; 
 
 function Login() {
     const [username, setUsername] = useState('');
@@ -54,7 +54,7 @@ function Login() {
                         {/* Dropdown for selecting account type */}
                         <Dropdown>
                             <Dropdown.Toggle id="dropdown-basic" className='drop-login'>
-                                {accountType} Account
+                                {accountType} Accounts
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu>
