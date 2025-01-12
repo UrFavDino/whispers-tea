@@ -1,0 +1,63 @@
+/* Apply to the whole page */
+html, body {
+    height: 100%; /* Ensure the body takes full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+/* Background container */
+.background-container {
+    position: fixed; /* Position fixed to cover the entire screen */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-image: url('../About.png'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+}
+
+/* Form container */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px; /* Set max width for the form */
+    text-align: center;
+}
+
+/* Title styles */
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Leckerli One', cursive;
+
+}
+
+/* Signup link styles */
+.btn-signup {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-login{
+    background-color: black;
+    padding: 5px 143px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.btn-link {
+    color: orangered;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
